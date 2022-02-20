@@ -20,7 +20,7 @@ url = 'https://tv.cctv.com/lm/xwlb/'
 res = requests.get(url)
 soup = BeautifulSoup(res.text, 'lxml')
 for link in soup.find_all('a'):
-	if 'https://tv.cctv.com'+get_time()+'VIDER' in str(link.get('href')):
+	if 'https://tv.cctv.com'+get_time() in str(link.get('href')):
 		realurl = str(link.get('href'))
 		break
 
