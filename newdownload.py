@@ -1,13 +1,10 @@
-# write by xiexuan
-# date 2022.2
-# support sdyz.huangyinhao.top. and wordpress.xiexuanicu.com and xiexuan.icu    all right serverd
-
 import requests
 import os
 import datetime
 import toml
 from bs4 import BeautifulSoup
-toml1 = toml.load('newspath.toml')
+curretpath = os.path.dirname(__file__)
+toml1 = toml.load(curretpath + '/newspath.toml')
 def get_time():
 	time = datetime.datetime.now()
 	if toml1['TODAYS'] :
