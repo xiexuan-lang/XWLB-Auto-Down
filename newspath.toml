@@ -1,3 +1,4 @@
 NEWS_LOCAL_PATH = "your path"
 TODAYS = 0 #if 1,download todays.if 0 download yesterdays 
 #示例 NEWS_LOCAL_PATH = "/xxx/xxxx/"
+#此文件与py文件保持在同一目录下
