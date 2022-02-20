@@ -1,6 +1,6 @@
-# write by xiexuan
-# date 2022.2
-# support sdyz.huangyinhao.top. and wordpress.xiexuanicu.com and xiexuan.icu    all right serverd
+# Developed by xiexuan
+# Version 2220.1
+# Applied to sdyz.huangyinhao.top. and wordpress.xiexuanicu.com and xiexuan.icu    all right serverd
 
 import requests
 import os
