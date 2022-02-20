@@ -21,4 +21,5 @@
 * 采取配置文件形式确定下载目录和性质
 
 ## 提出问题
-**请[在此](https://github.com/xiexuan-lang/news-Download/issues)提一个issue*
+
+请[在此](https://github.com/xiexuan-lang/news-Download/issues)提一个issue*
